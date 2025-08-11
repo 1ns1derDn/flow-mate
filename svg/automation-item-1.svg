@@ -1,0 +1,20 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+	xmlns="http://www.w3.org/2000/svg">
+	<circle cx="16" cy="16" r="16" fill="#5856D6" />
+	<path
+		d="M22.6667 13.512V10.8187C22.6667 9.7587 22.24 9.33203 21.18 9.33203H18.4867C17.4267 9.33203 17 9.7587 17 10.8187V13.512C17 14.572 17.4267 14.9987 18.4867 14.9987H21.18C22.24 14.9987 22.6667 14.572 22.6667 13.512Z"
+		stroke="white" stroke-width="1.5" stroke-linecap="round"
+		stroke-linejoin="round" />
+	<path
+		d="M14.9948 13.6807V10.654C14.9948 9.71398 14.5681 9.33398 13.5081 9.33398H10.8148C9.75479 9.33398 9.32812 9.71398 9.32812 10.654V13.674C9.32812 14.6207 9.75479 14.994 10.8148 14.994H13.5081C14.5681 15.0007 14.9948 14.6207 14.9948 13.6807Z"
+		stroke="white" stroke-width="1.5" stroke-linecap="round"
+		stroke-linejoin="round" />
+	<path
+		d="M14.9948 21.18V18.4867C14.9948 17.4267 14.5681 17 13.5081 17H10.8148C9.75479 17 9.32812 17.4267 9.32812 18.4867V21.18C9.32812 22.24 9.75479 22.6667 10.8148 22.6667H13.5081C14.5681 22.6667 14.9948 22.24 14.9948 21.18Z"
+		stroke="white" stroke-width="1.5" stroke-linecap="round"
+		stroke-linejoin="round" />
+	<path d="M17.6719 19.666H21.6719" stroke="white" stroke-width="1.5"
+		stroke-linecap="round" />
+	<path d="M19.6719 21.666V17.666" stroke="white" stroke-width="1.5"
+		stroke-linecap="round" />
+</svg>

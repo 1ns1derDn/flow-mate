@@ -1,0 +1,27 @@
+@import "./_normalize.scss";
+@import "./animation.scss";
+/* shared */
+@import "./_reset.scss";
+@import "./_common.scss";
+
+/* components */
+
+@import "./_container.scss";
+@import "./_nav.scss";
+@import "./_buttons.scss";
+
+/* sections */
+@import "./_header.scss";
+@import "./_intro.scss";
+@import "./_connect.scss";
+@import "./_ai.scss";
+@import "./_integration.scss";
+@import "./_workflows.scss";
+@import "./_automation.scss";
+@import "./_transition.scss";
+@import "./_impact.scss";
+@import "./_connectivity.scss";
+@import "./_footer.scss";
+
+// platform and tabs
+@import "./platform";
