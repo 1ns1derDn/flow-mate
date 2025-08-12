@@ -50,18 +50,19 @@
 	margin-bottom: 40px;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
 	.connectivity {
 		padding: 80px 0;
 		padding-top: 120px;
 	}
 
 	.connectivity__title {
-		font-size: 26px;
+		font-size: 44px;
+		max-width: 900px;
 	}
 
 	.connectivity__text {
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
 

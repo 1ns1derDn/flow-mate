@@ -33,8 +33,9 @@
 }
 
 .connect__box {
-	max-width: 640px;
-	margin-right: auto;
+	max-width: 600px;
+	width: 100%;
+	margin: auto;
 }
 
 .connect__title {
@@ -54,17 +55,16 @@
 .connect__button {
 	width: 100%;
 	max-width: 228px;
-}
-
-@media (max-width: 1399px) {
-	.connect__box {
-		margin-right: 20px;
-	}
+	margin-left: 20px;
 }
 
 @media (max-width: 1023px) {
 	.connect {
 		padding: 25px;
+	}
+
+	.connect__button {
+		margin-left: 0px;
 	}
 
 	.connect__inner {

@@ -95,9 +95,10 @@
 	color: #ffffff;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
 	.ai__title {
 		font-size: 44px;
+		max-width: 940px;
 	}
 
 	.ai__text {

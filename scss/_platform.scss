@@ -166,9 +166,10 @@
 	display: none;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
 	.platform__title {
 		font-size: 44px;
+		max-width: 920px;
 	}
 
 	.platform__text {

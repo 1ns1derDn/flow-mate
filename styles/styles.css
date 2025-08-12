@@ -4460,7 +4460,7 @@ a {
   width: 100%;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
   .intro {
     padding-bottom: 140px;
   }
@@ -4542,8 +4542,9 @@ a {
 }
 
 .connect__box {
-  max-width: 640px;
-  margin-right: auto;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
 }
 
 .connect__title {
@@ -4563,16 +4564,15 @@ a {
 .connect__button {
   width: 100%;
   max-width: 228px;
+  margin-left: 20px;
 }
 
-@media (max-width: 1399px) {
-  .connect__box {
-    margin-right: 20px;
-  }
-}
 @media (max-width: 1023px) {
   .connect {
     padding: 25px;
+  }
+  .connect__button {
+    margin-left: 0px;
   }
   .connect__inner {
     -webkit-box-orient: vertical;
@@ -4742,9 +4742,10 @@ a {
   color: #ffffff;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
   .ai__title {
     font-size: 44px;
+    max-width: 940px;
   }
   .ai__text {
     font-size: 18px;
@@ -4839,7 +4840,7 @@ a {
   width: 100%;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
   .integration {
     padding: 80px 0;
   }
@@ -4906,6 +4907,7 @@ a {
 }
 
 .workflows__title {
+  font-weight: 700;
   font-size: 32px;
   line-height: 1.2;
   color: #232343;
@@ -4928,7 +4930,7 @@ a {
   width: 100%;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
   .workflows {
     padding: 80px 0;
   }
@@ -5005,6 +5007,7 @@ a {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 16px;
+  max-width: 450px;
 }
 
 .automation__text-bottom {
@@ -5012,6 +5015,7 @@ a {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 36px;
+  max-width: 450px;
 }
 
 .automation__list {
@@ -5061,7 +5065,7 @@ a {
   width: 100%;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
   .automation {
     padding: 80px 0;
   }
@@ -5166,7 +5170,7 @@ a {
   width: 100%;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
   .transition {
     padding: 80px 0;
   }
@@ -5301,7 +5305,7 @@ a {
   width: 100%;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
   .impact {
     padding: 80px 0;
     padding-bottom: 140px;
@@ -5422,16 +5426,17 @@ a {
   margin-bottom: 40px;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
   .connectivity {
     padding: 80px 0;
     padding-top: 120px;
   }
   .connectivity__title {
-    font-size: 26px;
+    font-size: 44px;
+    max-width: 900px;
   }
   .connectivity__text {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (max-width: 1023px) {
@@ -5792,9 +5797,10 @@ a {
   display: none;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
   .platform__title {
     font-size: 44px;
+    max-width: 920px;
   }
   .platform__text {
     font-size: 18px;

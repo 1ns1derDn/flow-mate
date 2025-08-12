@@ -15,6 +15,7 @@
 }
 
 .workflows__title {
+	font-weight: 700;
 	font-size: 32px;
 	line-height: 1.2;
 	color: #232343;
@@ -37,7 +38,7 @@
 	width: 100%;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1365px) {
 	.workflows {
 		padding: 80px 0;
 	}
