@@ -54,6 +54,7 @@
 .tabs__button--active .tabs__button-content-hidden {
 	max-height: 347px;
 	opacity: 1;
+	transition: all 1s ease;
 }
 
 .tabs__button--active .tabs__button-content-text {
@@ -120,7 +121,6 @@
 .tabs__button-content-hidden {
 	max-height: 0px;
 	overflow: hidden;
-	transition: all 1s ease;
 }
 
 .tabs__button-content-link-text {

@@ -5657,6 +5657,8 @@ a {
 .tabs__button--active .tabs__button-content-hidden {
   max-height: 347px;
   opacity: 1;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .tabs__button--active .tabs__button-content-text {
@@ -5740,8 +5742,6 @@ a {
 .tabs__button-content-hidden {
   max-height: 0px;
   overflow: hidden;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
 }
 
 .tabs__button-icon {

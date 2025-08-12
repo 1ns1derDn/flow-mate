@@ -33,6 +33,14 @@
 						? item.classList.add("tabs__contents-image--active")
 						: null
 				)
+
+				if (window.innerWidth <= 768) {
+					const tabTop = this.getBoundingClientRect().top + window.scrollY
+					window.scrollTo({
+						top: tabTop,
+						behavior: "smooth",
+					})
+				}
 			})
 		})
 	}
