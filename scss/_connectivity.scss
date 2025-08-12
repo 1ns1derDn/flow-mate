@@ -81,8 +81,8 @@
 
 @media (max-width: 767px) {
 	.connectivity {
-		padding: 40px 0;
-		padding-top: 130px;
+		padding-top: 180px;
+		padding-bottom: 70px;
 	}
 
 	.connectivity__title {
@@ -91,10 +91,14 @@
 
 	.connectivity__text {
 		font-size: 14px;
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 
 	.connectivity__text-bottom {
 		font-size: 20px;
+	}
+
+	.connectivity__image {
+		margin-bottom: 40px;
 	}
 }

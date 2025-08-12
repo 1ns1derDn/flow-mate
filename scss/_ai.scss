@@ -122,7 +122,7 @@
 
 @media (max-width: 767px) {
 	.ai {
-		padding-bottom: 60px;
+		padding-bottom: 70px;
 	}
 	.ai__title {
 		font-size: 24px;
@@ -130,11 +130,12 @@
 
 	.ai__text {
 		font-size: 14px;
+		margin-bottom: 40px;
 	}
 
 	.ai__box {
 		flex-direction: column;
-		gap: 20px;
+		gap: 30px;
 	}
 	.ai__wrapper {
 		max-width: 100%;

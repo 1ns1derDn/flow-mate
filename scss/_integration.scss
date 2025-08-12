@@ -77,15 +77,20 @@
 
 @media (max-width: 767px) {
 	.integration {
-		padding: 40px 0;
+		padding: 70px 0;
 	}
 
 	.integration__title {
 		font-size: 20px;
+		margin-bottom: 22px;
 	}
 
 	.integration__text {
 		font-size: 14px;
-		margin-bottom: 20px;
+		margin-bottom: 40px;
+	}
+
+	.integration__inner {
+		gap: 30px;
 	}
 }

@@ -4496,7 +4496,7 @@ a {
   }
   .intro__text {
     font-size: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
   }
 }
 .connect {
@@ -4766,20 +4766,21 @@ a {
 }
 @media (max-width: 767px) {
   .ai {
-    padding-bottom: 60px;
+    padding-bottom: 70px;
   }
   .ai__title {
     font-size: 24px;
   }
   .ai__text {
     font-size: 14px;
+    margin-bottom: 40px;
   }
   .ai__box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
   .ai__wrapper {
     max-width: 100%;
@@ -4868,14 +4869,18 @@ a {
 }
 @media (max-width: 767px) {
   .integration {
-    padding: 40px 0;
+    padding: 70px 0;
   }
   .integration__title {
     font-size: 20px;
+    margin-bottom: 22px;
   }
   .integration__text {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+  }
+  .integration__inner {
+    gap: 30px;
   }
 }
 .workflows {
@@ -4953,14 +4958,15 @@ a {
 }
 @media (max-width: 767px) {
   .workflows {
-    padding: 40px 0;
+    padding: 70px 0;
   }
   .workflows__title {
     font-size: 20px;
+    margin-bottom: 24px;
   }
   .workflows__text {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
 .automation {
@@ -5092,14 +5098,15 @@ a {
 }
 @media (max-width: 767px) {
   .automation {
-    padding: 40px 0;
+    padding: 70px 0;
   }
   .automation__title {
     font-size: 20px;
+    margin-bottom: 24px;
   }
   .automation__text {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .automation__text-top,
   .automation__text-bottom {
@@ -5176,7 +5183,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
   .transition__left {
     max-width: 100%;
@@ -5191,14 +5198,15 @@ a {
 }
 @media (max-width: 767px) {
   .transition {
-    padding: 40px 0;
+    padding: 70px 0;
   }
   .transition__title {
     font-size: 20px;
+    margin-bottom: 24px;
   }
   .transition__text {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 }
 .impact {
@@ -5314,7 +5322,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 20px;
+    gap: 30px;
   }
   .impact__left {
     max-width: 100%;
@@ -5331,8 +5339,11 @@ a {
 }
 @media (max-width: 767px) {
   .impact {
-    padding-top: 40px;
+    padding-top: 70px;
     padding-bottom: 35%;
+  }
+  .impact__inner {
+    gap: 40px;
   }
   .impact__title {
     font-size: 20px;
@@ -5342,6 +5353,9 @@ a {
   .impact__text-middle {
     font-size: 14px;
     margin-bottom: 20px;
+  }
+  .impact__text-bottom {
+    margin-bottom: 40px;
   }
   .impact-list__item {
     font-size: 14px;
@@ -5433,18 +5447,21 @@ a {
 }
 @media (max-width: 767px) {
   .connectivity {
-    padding: 40px 0;
-    padding-top: 130px;
+    padding-top: 180px;
+    padding-bottom: 70px;
   }
   .connectivity__title {
     font-size: 20px;
   }
   .connectivity__text {
     font-size: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .connectivity__text-bottom {
     font-size: 20px;
+  }
+  .connectivity__image {
+    margin-bottom: 40px;
   }
 }
 .footer {
