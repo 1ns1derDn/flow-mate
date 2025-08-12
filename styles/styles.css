@@ -4093,7 +4093,7 @@ a {
           flex: 0 0 auto;
 }
 
-.border {
+.border img {
   width: 100%;
 }
 
@@ -4509,7 +4509,7 @@ a {
   position: absolute;
   left: 30px;
   right: 30px;
-  z-index: 100;
+  z-index: 200;
   bottom: 0;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
@@ -5655,7 +5655,10 @@ a {
 }
 
 .tabs__button--active .tabs__button-content-hidden {
-  display: block;
+  max-height: 500px;
+  opacity: 1;
+  -webkit-transition: max-height 2s ease;
+  transition: max-height 2s ease;
 }
 
 .tabs__buttons {
@@ -5726,7 +5729,9 @@ a {
 }
 
 .tabs__button-content-hidden {
-  display: none;
+  max-height: 0px;
+  opacity: 0;
+  overflow: hidden;
 }
 
 .tabs__button-icon {
