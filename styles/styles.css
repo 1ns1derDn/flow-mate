@@ -5842,9 +5842,9 @@ a {
 @media (max-width: 767px) {
   .platform__title {
     font-size: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
   }
   .platform__text {
-    margin-bottom: 16px;
+    margin-bottom: 40px;
   }
 }
