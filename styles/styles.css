@@ -4043,12 +4043,6 @@ img {
   display: block;
 }
 
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  color: #232343;
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -4438,6 +4432,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
+  min-height: 290px;
 }
 
 .intro__image {
@@ -4912,7 +4907,7 @@ a {
   line-height: 1.2;
   color: #232343;
   margin-bottom: 12px;
-  max-width: 460px;
+  max-width: 480px;
 }
 
 .workflows__text {
