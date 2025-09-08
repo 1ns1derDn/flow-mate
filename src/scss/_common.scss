@@ -1,0 +1,33 @@
+.primary-color {
+	color: #6557ff;
+}
+
+.cta-color {
+	color: #7ef9b4;
+}
+
+.neutral-color {
+	color: #0b0b2e;
+}
+
+.white-color {
+	color: #ffffff;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.border img {
+	width: 100%;
+}

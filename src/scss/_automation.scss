@@ -1,0 +1,147 @@
+.automation {
+	padding-top: 155px;
+	padding-bottom: 125px;
+	background-color: #f4f4f7;
+}
+
+.automation__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 81px;
+}
+
+.automation__left {
+	max-width: 704px;
+}
+
+.automation__title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 1.2;
+	margin-bottom: 12px;
+	max-width: 550px;
+}
+
+.automation__text-top {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 16px;
+	max-width: 450px;
+}
+
+.automation__text-bottom {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 36px;
+	max-width: 450px;
+}
+
+.automation__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 11px;
+	margin-bottom: 14px;
+}
+
+.automation__list-item {
+	padding: 4px;
+	padding-right: 12px;
+
+	line-height: 1.2;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	border: 1px solid #5856d633;
+	border-radius: 50px;
+	color: #5856d6;
+}
+
+.automation__list-item-icon {
+}
+
+.automation__list-item-text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.automation__right {
+	max-width: 550px;
+	align-self: flex-start;
+	padding-top: 13px;
+}
+
+.automation__left img {
+	width: 100%;
+}
+
+@media (max-width: 1365px) {
+	.automation {
+		padding: 80px 0;
+	}
+
+	.automation__title {
+		font-size: 26px;
+	}
+
+	.automation__text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.automation__inner {
+		flex-direction: column-reverse;
+		gap: 30px;
+	}
+
+	.automation__left {
+		max-width: 100%;
+	}
+
+	.automation__right {
+		max-width: 100%;
+	}
+
+	.automation__title {
+		max-width: 100%;
+	}
+
+	.automation__text {
+		max-width: 100%;
+	}
+
+	.automation__text-bottom {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.automation {
+		padding: 70px 0;
+	}
+
+	.automation__title {
+		font-size: 20px;
+		margin-bottom: 24px;
+	}
+
+	.automation__text {
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+
+	.automation__text-top,
+	.automation__text-bottom {
+		font-size: 14px;
+	}
+
+	.automation__list-item-text {
+		font-size: 12px;
+	}
+}

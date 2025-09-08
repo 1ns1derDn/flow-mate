@@ -1,0 +1,163 @@
+.features {
+	background-color: #f4f4f7;
+	padding: 120px 0;
+}
+
+.features__inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.features__title {
+	font-weight: 700;
+	font-size: 58px;
+	line-height: 1.21;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.features__title span {
+	color: #6557ff;
+}
+
+.features__text {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.34;
+	text-align: center;
+	max-width: 992px;
+	margin-bottom: 57px;
+}
+
+.features-list {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 100%;
+	gap: 24px;
+}
+
+.features-list__item {
+	position: relative;
+	max-width: 538px;
+	border-radius: 28.03px;
+	padding: 28px;
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.features-list__left {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.features-list__title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.34;
+	margin-bottom: 8px;
+	color: #6557ff;
+}
+
+.features-list__text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.34;
+	margin-bottom: 24px;
+	max-width: 363px;
+}
+
+.features-list__link {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	color: #6557ff;
+	margin-top: auto;
+}
+
+.features-list__link-text {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.features-list__right {
+	position: absolute;
+	top: 28px;
+	right: 29px;
+}
+
+@media (max-width: 1365px) {
+	.features__title {
+		font-size: 26px;
+	}
+
+	.features__text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.features__inner {
+		flex-direction: column;
+	}
+	.features__title {
+		max-width: 100%;
+	}
+
+	.features__text {
+		max-width: 100%;
+	}
+
+	.features-list {
+		flex-direction: column;
+	}
+
+	.features-list__item {
+		max-width: 100%;
+	}
+
+	.features-list__text {
+		max-width: 92%;
+	}
+}
+
+@media (max-width: 767px) {
+	.features-list__item {
+		padding: 20px 20px;
+	}
+
+	.features-list__right {
+		top: 10px;
+		right: 10px;
+	}
+
+	.features-list__right svg {
+		width: 30px;
+	}
+
+	.features-list__title {
+		font-size: 20px;
+	}
+
+	.features-list__text {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.features-list__link-text {
+		font-size: 14px;
+	}
+
+	.features__title {
+		font-size: 20px;
+		margin-bottom: 22px;
+	}
+
+	.features__text {
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+}

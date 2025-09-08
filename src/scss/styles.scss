@@ -1,0 +1,33 @@
+@use "./_normalize.scss";
+/* shared */
+@use "./_reset.scss";
+@use "./_common.scss";
+
+/* components */
+
+@use "./_container.scss";
+@use "./_nav.scss";
+@use "./_buttons.scss";
+
+/* sections */
+@use "./_header.scss";
+@use "./_intro.scss";
+@use "./_connect.scss";
+@use "./_ai.scss";
+@use "./_integration.scss";
+@use "./_workflows.scss";
+@use "./_automation.scss";
+@use "./_transition.scss";
+@use "./_impact.scss";
+@use "./_connectivity.scss";
+@use "./_sde-intro.scss";
+@use "./_works.scss";
+@use "./_trigger.scss";
+@use "./_user.scss";
+@use "./_app.scss";
+@use "./_builder.scss";
+@use "./_features.scss";
+@use "./_footer.scss";
+
+// platform and tabs
+@use "./platform";

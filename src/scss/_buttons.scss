@@ -1,0 +1,75 @@
+.button-outline {
+	background-color: #0b0b2e;
+	border-radius: 4px;
+	padding: 10px 16px 12px;
+	font-weight: 700;
+	font-size: 16px;
+	color: #ffffff;
+	transition: background-color 0.3s ease;
+}
+
+.button-outline:hover {
+	background-color: #6557ff;
+}
+
+.button-text {
+	display: inline-block;
+	padding: 12px 16px;
+	font-weight: 600;
+	font-size: 16px;
+	transition: color 0.3s ease;
+}
+
+.button-text:hover {
+	color: #6557ff;
+}
+
+.button-large {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+
+	font-size: 16px;
+
+	font-weight: 700;
+
+	border-radius: 8px;
+	padding: 18px 24px;
+	color: #ffffff;
+	transition: background-color 0.3s ease;
+}
+
+.button-large__arrow {
+	display: block;
+	margin-left: auto;
+}
+
+.button-large svg {
+	fill: currentColor;
+}
+
+.button-large--green {
+	background-color: #7ef9b4;
+	color: #0b0b2e;
+}
+
+.button-large--green:hover {
+	background-color: #55cc88;
+}
+
+.button-large--black {
+	background-color: #0b0b2e;
+	color: #ffffff;
+}
+
+.button-large--black:hover {
+	background-color: #6557ff;
+}
+
+@media (max-width: 767px) {
+	.button-large {
+		padding: 20px;
+		font-size: 14px;
+	}
+}

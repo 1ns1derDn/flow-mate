@@ -1,0 +1,153 @@
+.impact {
+	padding-top: 154px;
+	padding-bottom: 160px;
+	background-color: #f4f4f7;
+	position: relative;
+}
+
+.impact__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.impact__left {
+	max-width: 500px;
+}
+
+.impact__title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1.2;
+	margin-bottom: 12px;
+}
+
+.impact__text-top {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	max-width: 400px;
+}
+
+.impact__text-middle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.impact__text-bottom {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.impact-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+	gap: 10px;
+}
+
+.impact-list__item {
+	position: relative;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #232343;
+	padding-left: 20px;
+}
+
+.impact-list__item::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 2px;
+	transform: translateY(-50%);
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: #6557ff;
+}
+
+.impact__right {
+	max-width: 585px;
+}
+
+.impact__right img {
+	width: 100%;
+}
+
+@media (max-width: 1365px) {
+	.impact {
+		padding: 80px 0;
+		padding-bottom: 140px;
+	}
+
+	.impact__title {
+		font-size: 26px;
+	}
+
+	.impact__text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.impact {
+		padding-bottom: 25%;
+	}
+
+	.impact__inner {
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.impact__left {
+		max-width: 100%;
+	}
+
+	.impact__title {
+		max-width: 100%;
+	}
+
+	.impact__text {
+		max-width: 100%;
+	}
+
+	.impact__text-top {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.impact {
+		padding-top: 70px;
+		padding-bottom: 35%;
+	}
+
+	.impact__inner {
+		gap: 40px;
+	}
+
+	.impact__title {
+		font-size: 20px;
+	}
+
+	.impact__text-top,
+	.impact__text-bottom,
+	.impact__text-middle {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+	.impact__text-bottom {
+		margin-bottom: 40px;
+	}
+
+	.impact-list__item {
+		font-size: 14px;
+	}
+}
