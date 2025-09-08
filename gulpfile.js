@@ -23,11 +23,11 @@ const sass = gulpSass(dartSass)
 const bs = browserSync.create()
 
 const paths = {
-	html: { src: "src/**/*.html", watch: "src/**/*.html", dest: "build" },
-	scss: { src: "src/scss/*.scss", watch: "src/**/*.scss", dest: "build/css" },
-	img: { src: "src/**/*.{jpg,jpeg,png,gif}", dest: "build/img" },
-	svg: { src: "src/**/*.svg", dest: "build/img" },
-	ts: { src: "src/**/*.ts", watch: "src/**/*.ts", dest: "build/js" },
+	html: { src: "src/**/*.html", watch: "src/**/*.html", dest: "docs" },
+	scss: { src: "src/scss/*.scss", watch: "src/**/*.scss", dest: "docs/css" },
+	img: { src: "src/**/*.{jpg,jpeg,png,gif}", dest: "docs/img" },
+	svg: { src: "src/**/*.svg", dest: "docs/img" },
+	ts: { src: "src/**/*.ts", watch: "src/**/*.ts", dest: "docs/js" },
 }
 
 // TS
@@ -139,7 +139,7 @@ export const clean = () => deleteAsync("dist")
 
 // Server
 export const serve = () => {
-	bs.init({ server: { baseDir: "build" }, notify: false })
+	bs.init({ server: { baseDir: "docs" }, notify: false })
 	gulp.watch(paths.html.watch, html)
 	gulp.watch(paths.scss.watch, scssTask)
 	gulp.watch(paths.img.src, gulp.series(images, imagesWebp))
