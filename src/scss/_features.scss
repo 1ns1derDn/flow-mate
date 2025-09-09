@@ -120,35 +120,36 @@
 	}
 
 	.features-list__text {
-		max-width: 92%;
+		max-width: 86%;
 	}
 }
 
 @media (max-width: 767px) {
 	.features-list__item {
-		padding: 20px 20px;
+		padding: 30px;
 	}
 
 	.features-list__right {
-		top: 10px;
-		right: 10px;
+		top: 20px;
+		right: 20px;
 	}
 
 	.features-list__right svg {
-		width: 30px;
+		width: 45px;
+		height: 45px;
 	}
 
 	.features-list__title {
 		font-size: 20px;
+		margin-bottom: 8px;
 	}
 
 	.features-list__text {
-		font-size: 14px;
-		margin-bottom: 10px;
+		font-size: 16px;
 	}
 
 	.features-list__link-text {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.features__title {
